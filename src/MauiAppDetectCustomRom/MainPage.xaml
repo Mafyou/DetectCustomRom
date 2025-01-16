@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppDetectCustomRom.MainPage">
-
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -24,12 +23,11 @@
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+            <Label
+                Text="{Binding RootedStatus, Mode=TwoWay}"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Check if the device is rooted" />
         </VerticalStackLayout>
     </ScrollView>
 
