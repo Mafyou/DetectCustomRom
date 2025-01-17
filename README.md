@@ -1,4 +1,4 @@
-# DetectCustomRom
+# Detect
 
 Detect if rooted or not.
 
