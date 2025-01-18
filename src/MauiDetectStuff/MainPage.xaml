@@ -29,6 +29,12 @@
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level3"
                 SemanticProperties.Description="Check if the device is rooted" />
+
+            <Label
+                Text="{Binding VPNStatus, Mode=TwoWay}"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Check if the device is under VPN" />
         </VerticalStackLayout>
     </ScrollView>
 

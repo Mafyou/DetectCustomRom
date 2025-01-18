@@ -1,5 +1,5 @@
-# DetectCustomRom
+# Maui Detect Stuff
 
-Detect if rooted or not.
+- Detect if rooted or not (Android).
 
-Will do VPN or not.
+- Detect if VPN is connected or not.
