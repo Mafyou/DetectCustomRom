@@ -61,6 +61,6 @@ public partial class MainPage : ContentPage, INotifyPropertyChanged
 
     private bool IsUnderVPN(string text)
         => text.Contains("VPN", StringComparison.CurrentCultureIgnoreCase) ||
-        text.Contains("tun0", StringComparison.CurrentCultureIgnoreCase) ||
+        text.Contains("tun", StringComparison.CurrentCultureIgnoreCase) ||
         text.Contains("TAP-Windows Adapter", StringComparison.CurrentCultureIgnoreCase);
 }
